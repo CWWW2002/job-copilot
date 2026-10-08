@@ -1,0 +1,20 @@
+Wei Chen
+wei.chen@example.com | github.com/weichen-example
+
+EDUCATION
+M.S. in Computer Science, Example State University    Aug 2025 - May 2027 (expected)
+B.Eng. in Computer Science, Example University (China)    Sep 2021 - Jun 2025
+
+EXPERIENCE
+Example Tech Co., Ltd. (Hangzhou) | Backend Development Intern    Jun 2024 - Sep 2024
+- Wrote REST APIs in Java Spring Boot for an internal order management tool
+- Fixed bugs reported by the QA team
+- Wrote unit tests with JUnit
+
+PROJECTS
+Course Project: Distributed Key-Value Store (Go)    Jan 2026 - Apr 2026
+- Implemented a key-value store with Raft-based replication as part of a 3-person team
+- Wrote the log replication module
+
+SKILLS
+Java, Go, Python, MySQL, Git, Docker

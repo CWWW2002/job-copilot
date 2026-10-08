@@ -1,0 +1,12 @@
+Software Development Engineer in Test (SDET)
+
+Responsibilities
+- Build and maintain automated test frameworks for web and mobile
+- Integrate test suites into CI/CD pipelines (Jenkins, GitHub Actions)
+- Improve test coverage and reduce release regressions
+
+Requirements
+- Experience writing automated tests with Selenium, Appium, or Cypress
+- Strong Python or Java skills
+- Experience with CI/CD and Docker
+- Demonstrated impact on test coverage or defect escape rate

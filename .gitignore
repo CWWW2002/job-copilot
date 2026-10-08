@@ -1,0 +1,19 @@
+backend/venv/
+backend/app.db
+backend/.env
+__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+
+# 幻觉率测试的运行结果
+backend/evals/results/
+
+# 个人信息:真实简历及其导出文件、包含真实简历的评测用例
+简历_*
+backend/evals/cases/ai_pm_real/
+backend/app/uploads/
+*蔡华善*
+/*.pdf
+/*.docx

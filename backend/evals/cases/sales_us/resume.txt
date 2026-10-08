@@ -1,0 +1,16 @@
+Marcus Lee
+marcus.lee@example.com
+
+EDUCATION
+B.S. in Business Administration, Example State University    Aug 2022 - May 2026
+
+EXPERIENCE
+Example Software Inc. | Sales Development Intern    May 2025 - Aug 2025
+- Researched prospective accounts and updated contact info in Salesforce
+- Shadowed account executives on discovery calls
+- Wrote first drafts of cold outreach emails
+
+Campus Bookstore | Cashier    Sep 2022 - May 2024
+
+SKILLS
+Salesforce (basic), LinkedIn Sales Navigator, Excel

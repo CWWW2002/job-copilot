@@ -1,0 +1,11 @@
+Machine Learning Engineer Intern
+
+What you'll do
+- Lead the design and deployment of ML models serving real-time predictions
+- Own end-to-end ML pipelines: data, training, evaluation, and monitoring
+- Collaborate with product teams to measure model impact
+
+Preferred
+- Experience leading ML projects from idea to production
+- Experience with MLOps tools (MLflow, Kubeflow) and AWS SageMaker
+- Publications or quantified model improvements

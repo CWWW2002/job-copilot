@@ -1,0 +1,21 @@
+# 一条命令启动前后端:docker compose up -d --build
+# 启动后访问 http://localhost:8080
+services:
+  backend:
+    build: ./backend
+    env_file: ./backend/.env
+    volumes:
+      - app-data:/data
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  app-data:

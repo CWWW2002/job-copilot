@@ -1,0 +1,16 @@
+Lina Gomez
+lina.gomez@example.com
+
+EDUCATION
+M.S. in Computer Science, Example Tech University    Aug 2025 - May 2027 (expected)
+
+PROJECTS
+Capstone: Retail Demand Forecasting (team of 5)    Jan 2026 - May 2026
+- Member of a 5-person team building an LSTM demand forecasting model
+- Prepared the holiday-features part of the dataset
+
+Course Project: Image Classifier (team of 3)    Sep 2025 - Dec 2025
+- Contributed to training a ResNet-18 on CIFAR-10 in PyTorch
+
+SKILLS
+Python, PyTorch, pandas, Git

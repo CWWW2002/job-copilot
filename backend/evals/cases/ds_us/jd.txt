@@ -1,0 +1,13 @@
+Data Scientist, Marketplace
+
+What you'll do
+- Design and analyze large-scale A/B experiments and causal inference studies
+- Build and deploy production ML models for pricing and ranking
+- Present findings to senior leadership
+
+Qualifications
+- MS/PhD in Statistics, CS, or related field
+- 2+ years of industry experience
+- Experience with causal inference methods (diff-in-diff, synthetic control)
+- Experience deploying models with Spark or Airflow
+- This role requires U.S. citizenship or permanent residency

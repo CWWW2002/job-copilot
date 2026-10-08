@@ -1,0 +1,17 @@
+Kevin Park
+kevin.park@example.com
+
+EDUCATION
+B.S. in Computer Science, Example University    Sep 2022 - Jun 2026
+
+EXPERIENCE
+Example Fintech | QA Intern    Jun 2025 - Sep 2025
+- Executed manual test cases for the mobile app and logged bugs in Jira
+- Updated test case descriptions in TestRail
+
+PROJECTS
+Course Project: Library Management System (Java, team of 4)    Jan 2025 - Apr 2025
+- Wrote the book search feature
+
+SKILLS
+Java, Python (basic), Jira, TestRail

@@ -1,0 +1,18 @@
+Priya Nair
+priya.nair@example.com
+
+EDUCATION
+M.S. in Statistics, Example University    Aug 2025 - May 2027 (expected)
+B.S. in Mathematics, Example Institute (India)    Jul 2020 - May 2024
+
+RESEARCH
+Graduate Research Assistant, Example University Stats Lab    Jan 2026 - Present
+- Cleaned survey data for a professor's study on commuting patterns
+- Ran regression analyses in R under the supervision of a PhD student
+
+PROJECTS
+Course Project: Predicting Housing Prices    Sep 2025 - Dec 2025
+- Built linear and random forest models in Python; reported RMSE on a held-out set
+
+SKILLS
+R, Python (pandas, scikit-learn), SQL (coursework)

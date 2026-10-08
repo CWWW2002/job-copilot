@@ -1,0 +1,18 @@
+Software Engineer Intern, Backend Infrastructure (Summer 2027)
+
+What you'll do
+- Design and build scalable backend services handling millions of requests per day
+- Deploy and operate services on Kubernetes in AWS
+- Improve latency and reliability of distributed systems, with measurable impact
+
+Minimum qualifications
+- Currently pursuing a BS/MS in Computer Science or a related field
+- Experience with Go, Java, or C++
+- Must be authorized to work in the United States; we are unable to sponsor visas for this role
+
+Preferred qualifications
+- Experience with Kubernetes, Kafka, and AWS
+- Track record of quantifiable performance improvements (e.g., reduced latency, increased throughput)
+- Experience leading projects or mentoring peers
+
+Equal Opportunity Employer.
