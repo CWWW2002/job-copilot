@@ -24,6 +24,14 @@ React (Vite) ──▶ Nginx ──/api──▶ FastAPI ──▶ LLM 调用层
 - **多模型路由与成本追踪**：所有 LLM 调用统一经过 [`llm_client.py`](backend/app/services/llm_client.py)，按任务路由到不同模型，失败自动重试和兜底，并记录每次调用的模型、token、成本与耗时；`GET /api/usage` 返回按任务、按模型的成本统计。
 - **幻觉率评测**：[`backend/evals`](backend/evals) 用「LLM 评审 + 规则核对」把定制简历拆成事实陈述逐条核验，对比线上 prompt、旧版 prompt 与无约束对照组的编造率。
 
+## Claude Agent Skill
+
+[`.claude/skills/job-copilot`](.claude/skills/job-copilot) 把上述能力封装成 Skill,在 Claude Code 中直接用自然语言调用("帮我看看这个 JD 能不能投"):
+
+- **门槛预检** [`precheck.py`](.claude/skills/job-copilot/scripts/precheck.py):规则识别 985 / QS 排名、毕业时间、留服认证、证书、户口等硬性门槛,并区分"优先"类软条件,不调用模型
+- **API 客户端** [`copilot.py`](.claude/skills/job-copilot/scripts/copilot.py):仅用标准库,串起上传、JD 识别、匹配、定制、压力测试
+- **工作流约束**写在 [`SKILL.md`](.claude/skills/job-copilot/SKILL.md):每步等用户确认;缺失技能转成问题问用户,不得补进简历
+
 ## 运行
 
 ```bash
@@ -45,4 +53,4 @@ cd frontend && npm install && npm run dev
 cd backend && venv/bin/pytest -q
 ```
 
-单元测试覆盖模型路由、兜底、失败记录、成本统计接口与评测 prompt，LLM 调用全部 mock，无需 API key。GitHub Actions 在每次提交时运行后端测试、评测脚本 dry-run、前端 lint 与构建，以及前后端镜像构建。
+单元测试覆盖模型路由、兜底、失败记录、成本统计接口、评测 prompt 与 Skill 脚本，LLM 调用全部 mock，无需 API key。GitHub Actions 在每次提交时运行后端测试、评测脚本 dry-run、前端 lint 与构建，以及前后端镜像构建。
